@@ -10,7 +10,9 @@ C:\Users\Burak\Desktop\Github\2024AugMicroserviceBootcamp\Order.Api\bin\Debug\ne
 C:\Users\Burak\Desktop\Github\2024AugMicroserviceBootcamp\Order.Api\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\Burak\Desktop\Github\2024AugMicroserviceBootcamp\Order.Api\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\Burak\Desktop\Github\2024AugMicroserviceBootcamp\Order.Api\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Burak\Desktop\Github\2024AugMicroserviceBootcamp\Order.Api\bin\Debug\net8.0\Order.Service.dll
 C:\Users\Burak\Desktop\Github\2024AugMicroserviceBootcamp\Order.Api\bin\Debug\net8.0\ServiceBus.dll
+C:\Users\Burak\Desktop\Github\2024AugMicroserviceBootcamp\Order.Api\bin\Debug\net8.0\Order.Service.pdb
 C:\Users\Burak\Desktop\Github\2024AugMicroserviceBootcamp\Order.Api\bin\Debug\net8.0\ServiceBus.pdb
 C:\Users\Burak\Desktop\Github\2024AugMicroserviceBootcamp\Order.Api\obj\Debug\net8.0\Order.Api.csproj.AssemblyReference.cache
 C:\Users\Burak\Desktop\Github\2024AugMicroserviceBootcamp\Order.Api\obj\Debug\net8.0\Order.Api.GeneratedMSBuildEditorConfig.editorconfig
@@ -34,5 +36,3 @@ C:\Users\Burak\Desktop\Github\2024AugMicroserviceBootcamp\Order.Api\obj\Debug\ne
 C:\Users\Burak\Desktop\Github\2024AugMicroserviceBootcamp\Order.Api\obj\Debug\net8.0\Order.Api.pdb
 C:\Users\Burak\Desktop\Github\2024AugMicroserviceBootcamp\Order.Api\obj\Debug\net8.0\Order.Api.genruntimeconfig.cache
 C:\Users\Burak\Desktop\Github\2024AugMicroserviceBootcamp\Order.Api\obj\Debug\net8.0\ref\Order.Api.dll
-C:\Users\Burak\Desktop\Github\2024AugMicroserviceBootcamp\Order.Api\bin\Debug\net8.0\Order.Service.dll
-C:\Users\Burak\Desktop\Github\2024AugMicroserviceBootcamp\Order.Api\bin\Debug\net8.0\Order.Service.pdb

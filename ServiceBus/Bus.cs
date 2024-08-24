@@ -9,14 +9,9 @@ namespace ServiceBus
     {
         public Task Send<T>(T message, string exchangeName) where T : class
         {
-            var connectionFactory = new ConnectionFactory()
-            {
-                Uri = new Uri(busOptions.Value.Url)
-            };
-
-            using var connection = connectionFactory.CreateConnection();
-            using var channel = connection.CreateModel();
+            using var channel = GetChannel();
             channel.ConfirmSelect();
+
             // create exchange
             channel.ExchangeDeclare(exchange: exchangeName, type: ExchangeType.Fanout);
 
@@ -30,6 +25,18 @@ namespace ServiceBus
             channel.WaitForConfirms(TimeSpan.FromMinutes(1));
             return Task.CompletedTask;
 
+        }
+
+        public IModel GetChannel()
+        {
+            var connectionFactory = new ConnectionFactory()
+            {
+                Uri = new Uri(busOptions.Value.Url)
+            };
+
+            var connection = connectionFactory.CreateConnection();
+            var channel = connection.CreateModel();
+            return channel;
         }
     }
 }
