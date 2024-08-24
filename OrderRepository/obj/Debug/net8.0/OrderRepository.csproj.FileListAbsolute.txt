@@ -1,0 +1,12 @@
+C:\Users\Burak\Desktop\Github\2024AugMicroserviceBootcamp\OrderRepository\bin\Debug\net8.0\OrderRepository.deps.json
+C:\Users\Burak\Desktop\Github\2024AugMicroserviceBootcamp\OrderRepository\bin\Debug\net8.0\OrderRepository.dll
+C:\Users\Burak\Desktop\Github\2024AugMicroserviceBootcamp\OrderRepository\bin\Debug\net8.0\OrderRepository.pdb
+C:\Users\Burak\Desktop\Github\2024AugMicroserviceBootcamp\OrderRepository\obj\Debug\net8.0\OrderRepository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Burak\Desktop\Github\2024AugMicroserviceBootcamp\OrderRepository\obj\Debug\net8.0\OrderRepository.AssemblyInfoInputs.cache
+C:\Users\Burak\Desktop\Github\2024AugMicroserviceBootcamp\OrderRepository\obj\Debug\net8.0\OrderRepository.AssemblyInfo.cs
+C:\Users\Burak\Desktop\Github\2024AugMicroserviceBootcamp\OrderRepository\obj\Debug\net8.0\OrderRepository.csproj.CoreCompileInputs.cache
+C:\Users\Burak\Desktop\Github\2024AugMicroserviceBootcamp\OrderRepository\obj\Debug\net8.0\OrderRepository.sourcelink.json
+C:\Users\Burak\Desktop\Github\2024AugMicroserviceBootcamp\OrderRepository\obj\Debug\net8.0\OrderRepository.dll
+C:\Users\Burak\Desktop\Github\2024AugMicroserviceBootcamp\OrderRepository\obj\Debug\net8.0\refint\OrderRepository.dll
+C:\Users\Burak\Desktop\Github\2024AugMicroserviceBootcamp\OrderRepository\obj\Debug\net8.0\OrderRepository.pdb
+C:\Users\Burak\Desktop\Github\2024AugMicroserviceBootcamp\OrderRepository\obj\Debug\net8.0\ref\OrderRepository.dll

@@ -1,0 +1,13 @@
+C:\Users\Burak\Desktop\Github\2024AugMicroserviceBootcamp\ServiceBus\bin\Debug\net8.0\ServiceBus.deps.json
+C:\Users\Burak\Desktop\Github\2024AugMicroserviceBootcamp\ServiceBus\bin\Debug\net8.0\ServiceBus.dll
+C:\Users\Burak\Desktop\Github\2024AugMicroserviceBootcamp\ServiceBus\bin\Debug\net8.0\ServiceBus.pdb
+C:\Users\Burak\Desktop\Github\2024AugMicroserviceBootcamp\ServiceBus\obj\Debug\net8.0\ServiceBus.csproj.AssemblyReference.cache
+C:\Users\Burak\Desktop\Github\2024AugMicroserviceBootcamp\ServiceBus\obj\Debug\net8.0\ServiceBus.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Burak\Desktop\Github\2024AugMicroserviceBootcamp\ServiceBus\obj\Debug\net8.0\ServiceBus.AssemblyInfoInputs.cache
+C:\Users\Burak\Desktop\Github\2024AugMicroserviceBootcamp\ServiceBus\obj\Debug\net8.0\ServiceBus.AssemblyInfo.cs
+C:\Users\Burak\Desktop\Github\2024AugMicroserviceBootcamp\ServiceBus\obj\Debug\net8.0\ServiceBus.csproj.CoreCompileInputs.cache
+C:\Users\Burak\Desktop\Github\2024AugMicroserviceBootcamp\ServiceBus\obj\Debug\net8.0\ServiceBus.sourcelink.json
+C:\Users\Burak\Desktop\Github\2024AugMicroserviceBootcamp\ServiceBus\obj\Debug\net8.0\ServiceBus.dll
+C:\Users\Burak\Desktop\Github\2024AugMicroserviceBootcamp\ServiceBus\obj\Debug\net8.0\refint\ServiceBus.dll
+C:\Users\Burak\Desktop\Github\2024AugMicroserviceBootcamp\ServiceBus\obj\Debug\net8.0\ServiceBus.pdb
+C:\Users\Burak\Desktop\Github\2024AugMicroserviceBootcamp\ServiceBus\obj\Debug\net8.0\ref\ServiceBus.dll

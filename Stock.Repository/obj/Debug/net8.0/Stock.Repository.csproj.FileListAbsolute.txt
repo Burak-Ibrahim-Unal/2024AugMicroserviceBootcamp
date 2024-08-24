@@ -1,0 +1,12 @@
+C:\Users\Burak\Desktop\Github\2024AugMicroserviceBootcamp\Stock.Repository\bin\Debug\net8.0\Stock.Repository.deps.json
+C:\Users\Burak\Desktop\Github\2024AugMicroserviceBootcamp\Stock.Repository\bin\Debug\net8.0\Stock.Repository.dll
+C:\Users\Burak\Desktop\Github\2024AugMicroserviceBootcamp\Stock.Repository\bin\Debug\net8.0\Stock.Repository.pdb
+C:\Users\Burak\Desktop\Github\2024AugMicroserviceBootcamp\Stock.Repository\obj\Debug\net8.0\Stock.Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Burak\Desktop\Github\2024AugMicroserviceBootcamp\Stock.Repository\obj\Debug\net8.0\Stock.Repository.AssemblyInfoInputs.cache
+C:\Users\Burak\Desktop\Github\2024AugMicroserviceBootcamp\Stock.Repository\obj\Debug\net8.0\Stock.Repository.AssemblyInfo.cs
+C:\Users\Burak\Desktop\Github\2024AugMicroserviceBootcamp\Stock.Repository\obj\Debug\net8.0\Stock.Repository.csproj.CoreCompileInputs.cache
+C:\Users\Burak\Desktop\Github\2024AugMicroserviceBootcamp\Stock.Repository\obj\Debug\net8.0\Stock.Repository.sourcelink.json
+C:\Users\Burak\Desktop\Github\2024AugMicroserviceBootcamp\Stock.Repository\obj\Debug\net8.0\Stock.Repository.dll
+C:\Users\Burak\Desktop\Github\2024AugMicroserviceBootcamp\Stock.Repository\obj\Debug\net8.0\refint\Stock.Repository.dll
+C:\Users\Burak\Desktop\Github\2024AugMicroserviceBootcamp\Stock.Repository\obj\Debug\net8.0\Stock.Repository.pdb
+C:\Users\Burak\Desktop\Github\2024AugMicroserviceBootcamp\Stock.Repository\obj\Debug\net8.0\ref\Stock.Repository.dll

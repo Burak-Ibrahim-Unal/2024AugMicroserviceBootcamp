@@ -1,0 +1,16 @@
+C:\Users\Burak\Desktop\Github\2024AugMicroserviceBootcamp\Order.Service\bin\Debug\net8.0\Order.Service.deps.json
+C:\Users\Burak\Desktop\Github\2024AugMicroserviceBootcamp\Order.Service\bin\Debug\net8.0\Order.Service.dll
+C:\Users\Burak\Desktop\Github\2024AugMicroserviceBootcamp\Order.Service\bin\Debug\net8.0\Order.Service.pdb
+C:\Users\Burak\Desktop\Github\2024AugMicroserviceBootcamp\Order.Service\obj\Debug\net8.0\Order.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Burak\Desktop\Github\2024AugMicroserviceBootcamp\Order.Service\obj\Debug\net8.0\Order.Service.AssemblyInfoInputs.cache
+C:\Users\Burak\Desktop\Github\2024AugMicroserviceBootcamp\Order.Service\obj\Debug\net8.0\Order.Service.AssemblyInfo.cs
+C:\Users\Burak\Desktop\Github\2024AugMicroserviceBootcamp\Order.Service\obj\Debug\net8.0\Order.Service.csproj.CoreCompileInputs.cache
+C:\Users\Burak\Desktop\Github\2024AugMicroserviceBootcamp\Order.Service\obj\Debug\net8.0\Order.Service.sourcelink.json
+C:\Users\Burak\Desktop\Github\2024AugMicroserviceBootcamp\Order.Service\obj\Debug\net8.0\Order.Service.dll
+C:\Users\Burak\Desktop\Github\2024AugMicroserviceBootcamp\Order.Service\obj\Debug\net8.0\refint\Order.Service.dll
+C:\Users\Burak\Desktop\Github\2024AugMicroserviceBootcamp\Order.Service\obj\Debug\net8.0\Order.Service.pdb
+C:\Users\Burak\Desktop\Github\2024AugMicroserviceBootcamp\Order.Service\obj\Debug\net8.0\ref\Order.Service.dll
+C:\Users\Burak\Desktop\Github\2024AugMicroserviceBootcamp\Order.Service\bin\Debug\net8.0\ServiceBus.dll
+C:\Users\Burak\Desktop\Github\2024AugMicroserviceBootcamp\Order.Service\bin\Debug\net8.0\ServiceBus.pdb
+C:\Users\Burak\Desktop\Github\2024AugMicroserviceBootcamp\Order.Service\obj\Debug\net8.0\Order.Service.csproj.AssemblyReference.cache
+C:\Users\Burak\Desktop\Github\2024AugMicroserviceBootcamp\Order.Service\obj\Debug\net8.0\Order.Se.FB33B3B7.Up2Date

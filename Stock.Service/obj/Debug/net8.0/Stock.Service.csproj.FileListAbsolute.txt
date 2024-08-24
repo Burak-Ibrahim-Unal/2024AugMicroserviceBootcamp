@@ -1,0 +1,12 @@
+C:\Users\Burak\Desktop\Github\2024AugMicroserviceBootcamp\Stock.Service\bin\Debug\net8.0\Stock.Service.deps.json
+C:\Users\Burak\Desktop\Github\2024AugMicroserviceBootcamp\Stock.Service\bin\Debug\net8.0\Stock.Service.dll
+C:\Users\Burak\Desktop\Github\2024AugMicroserviceBootcamp\Stock.Service\bin\Debug\net8.0\Stock.Service.pdb
+C:\Users\Burak\Desktop\Github\2024AugMicroserviceBootcamp\Stock.Service\obj\Debug\net8.0\Stock.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Burak\Desktop\Github\2024AugMicroserviceBootcamp\Stock.Service\obj\Debug\net8.0\Stock.Service.AssemblyInfoInputs.cache
+C:\Users\Burak\Desktop\Github\2024AugMicroserviceBootcamp\Stock.Service\obj\Debug\net8.0\Stock.Service.AssemblyInfo.cs
+C:\Users\Burak\Desktop\Github\2024AugMicroserviceBootcamp\Stock.Service\obj\Debug\net8.0\Stock.Service.csproj.CoreCompileInputs.cache
+C:\Users\Burak\Desktop\Github\2024AugMicroserviceBootcamp\Stock.Service\obj\Debug\net8.0\Stock.Service.sourcelink.json
+C:\Users\Burak\Desktop\Github\2024AugMicroserviceBootcamp\Stock.Service\obj\Debug\net8.0\Stock.Service.dll
+C:\Users\Burak\Desktop\Github\2024AugMicroserviceBootcamp\Stock.Service\obj\Debug\net8.0\refint\Stock.Service.dll
+C:\Users\Burak\Desktop\Github\2024AugMicroserviceBootcamp\Stock.Service\obj\Debug\net8.0\Stock.Service.pdb
+C:\Users\Burak\Desktop\Github\2024AugMicroserviceBootcamp\Stock.Service\obj\Debug\net8.0\ref\Stock.Service.dll
