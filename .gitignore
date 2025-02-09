@@ -1,0 +1,55 @@
+# .NET Core
+
+# Build output
+bin/
+obj/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Logs
+*.log
+
+# Visual Studio Code settings
+.vscode/
+.vs
+
+# Rider project settings
+.idea/
+*.sln.iml
+
+# Dotnet local tools
+.dotnet-tools/
+
+# NuGet Packages
+*.nupkg
+**/packages/*
+!**/packages/build/
+
+# Test results
+TestResults/
+
+# ASP.NET Core
+appsettings.*.json
+
+# Entity Framework Migrations
+Migrations/
+
+# Secrets
+secrets.json
+.env
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Resharper files
+*.DotSettings.user
+
+# Coverage reports
+coverage/
+*.coverage
+*.coveragexml
