@@ -16,7 +16,6 @@ namespace Order.Service
                 {1, 1},{2,6}
             });
 
-            string exchangeName = "orderapi.order.created.event.exchange";
             await bus.Send(orderCreatedEvent, BusConst.OrderCreatedEventExchange);
 
         }
