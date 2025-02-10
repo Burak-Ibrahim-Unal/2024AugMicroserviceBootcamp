@@ -3,32 +3,76 @@
   "WorkspaceRootPath": "C:\\Users\\Burak\\Desktop\\Github\\2024AugMicroserviceBootcamp\\2024AugMicroserviceBootcamp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DA81F576-F561-4AAB-A6A9-E78CD1979C87}|ServiceBus\\ServiceBus.csproj|c:\\users\\burak\\desktop\\github\\2024augmicroservicebootcamp\\2024augmicroservicebootcamp\\servicebus\\bus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DA81F576-F561-4AAB-A6A9-E78CD1979C87}|ServiceBus\\ServiceBus.csproj|solutionrelative:servicebus\\bus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DA81F576-F561-4AAB-A6A9-E78CD1979C87}|ServiceBus\\ServiceBus.csproj|c:\\users\\burak\\desktop\\github\\2024augmicroservicebootcamp\\2024augmicroservicebootcamp\\servicebus\\busoption.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DA81F576-F561-4AAB-A6A9-E78CD1979C87}|ServiceBus\\ServiceBus.csproj|solutionrelative:servicebus\\busoption.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DA81F576-F561-4AAB-A6A9-E78CD1979C87}|ServiceBus\\ServiceBus.csproj|c:\\users\\burak\\desktop\\github\\2024augmicroservicebootcamp\\2024augmicroservicebootcamp\\servicebus\\ibus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DA81F576-F561-4AAB-A6A9-E78CD1979C87}|ServiceBus\\ServiceBus.csproj|solutionrelative:servicebus\\ibus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{973B7CF4-389D-41D0-87AB-72613E5CA826}|Stock.API\\Stock.API.csproj|c:\\users\\burak\\desktop\\github\\2024augmicroservicebootcamp\\2024augmicroservicebootcamp\\stock.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{973B7CF4-389D-41D0-87AB-72613E5CA826}|Stock.API\\Stock.API.csproj|solutionrelative:stock.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2FFCCB7F-0249-41A7-9D91-6933EA4C8FD9}|Order.API\\Order.API.csproj|c:\\users\\burak\\desktop\\github\\2024augmicroservicebootcamp\\2024augmicroservicebootcamp\\order.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2FFCCB7F-0249-41A7-9D91-6933EA4C8FD9}|Order.API\\Order.API.csproj|solutionrelative:order.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{FB527BDF-9182-471B-AC2E-BF6CF4F0F58C}|Stock.Service\\Stock.Service.csproj|c:\\users\\burak\\desktop\\github\\2024augmicroservicebootcamp\\2024augmicroservicebootcamp\\stock.service\\consumers\\ordercreatedeventconsumerbgservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB527BDF-9182-471B-AC2E-BF6CF4F0F58C}|Stock.Service\\Stock.Service.csproj|solutionrelative:stock.service\\consumers\\ordercreatedeventconsumerbgservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{973B7CF4-389D-41D0-87AB-72613E5CA826}|Stock.API\\Stock.API.csproj|c:\\users\\burak\\desktop\\github\\2024augmicroservicebootcamp\\2024augmicroservicebootcamp\\stock.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{973B7CF4-389D-41D0-87AB-72613E5CA826}|Stock.API\\Stock.API.csproj|solutionrelative:stock.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{2FFCCB7F-0249-41A7-9D91-6933EA4C8FD9}|Order.API\\Order.API.csproj|c:\\users\\burak\\desktop\\github\\2024augmicroservicebootcamp\\2024augmicroservicebootcamp\\order.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{2FFCCB7F-0249-41A7-9D91-6933EA4C8FD9}|Order.API\\Order.API.csproj|solutionrelative:order.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42207540-636C-4CA3-AD57-FA175F1A277E}|Order.Service\\Order.Service.csproj|c:\\users\\burak\\desktop\\github\\2024augmicroservicebootcamp\\2024augmicroservicebootcamp\\order.service\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42207540-636C-4CA3-AD57-FA175F1A277E}|Order.Service\\Order.Service.csproj|solutionrelative:order.service\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA81F576-F561-4AAB-A6A9-E78CD1979C87}|ServiceBus\\ServiceBus.csproj|c:\\users\\burak\\desktop\\github\\2024augmicroservicebootcamp\\2024augmicroservicebootcamp\\servicebus\\busconst.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA81F576-F561-4AAB-A6A9-E78CD1979C87}|ServiceBus\\ServiceBus.csproj|solutionrelative:servicebus\\busconst.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA81F576-F561-4AAB-A6A9-E78CD1979C87}|ServiceBus\\ServiceBus.csproj|c:\\users\\burak\\desktop\\github\\2024augmicroservicebootcamp\\2024augmicroservicebootcamp\\servicebus\\servicebus.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{DA81F576-F561-4AAB-A6A9-E78CD1979C87}|ServiceBus\\ServiceBus.csproj|solutionrelative:servicebus\\servicebus.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA81F576-F561-4AAB-A6A9-E78CD1979C87}|ServiceBus\\ServiceBus.csproj|c:\\users\\burak\\desktop\\github\\2024augmicroservicebootcamp\\2024augmicroservicebootcamp\\servicebus\\bus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA81F576-F561-4AAB-A6A9-E78CD1979C87}|ServiceBus\\ServiceBus.csproj|solutionrelative:servicebus\\bus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA81F576-F561-4AAB-A6A9-E78CD1979C87}|ServiceBus\\ServiceBus.csproj|c:\\users\\burak\\desktop\\github\\2024augmicroservicebootcamp\\2024augmicroservicebootcamp\\servicebus\\ibus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA81F576-F561-4AAB-A6A9-E78CD1979C87}|ServiceBus\\ServiceBus.csproj|solutionrelative:servicebus\\ibus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB527BDF-9182-471B-AC2E-BF6CF4F0F58C}|Stock.Service\\Stock.Service.csproj|c:\\users\\burak\\desktop\\github\\2024augmicroservicebootcamp\\2024augmicroservicebootcamp\\stock.service\\stock.service.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{FB527BDF-9182-471B-AC2E-BF6CF4F0F58C}|Stock.Service\\Stock.Service.csproj|solutionrelative:stock.service\\stock.service.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FFCCB7F-0249-41A7-9D91-6933EA4C8FD9}|Order.API\\Order.API.csproj|c:\\users\\burak\\desktop\\github\\2024augmicroservicebootcamp\\2024augmicroservicebootcamp\\order.api\\order.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{2FFCCB7F-0249-41A7-9D91-6933EA4C8FD9}|Order.API\\Order.API.csproj|solutionrelative:order.api\\order.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2E944A5-2D0D-49D0-96C4-2BE06DEB5BA7}|Order.Repository\\Order.Repository.csproj|c:\\users\\burak\\desktop\\github\\2024augmicroservicebootcamp\\2024augmicroservicebootcamp\\order.repository\\order.repository.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{F2E944A5-2D0D-49D0-96C4-2BE06DEB5BA7}|Order.Repository\\Order.Repository.csproj|solutionrelative:order.repository\\order.repository.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42207540-636C-4CA3-AD57-FA175F1A277E}|Order.Service\\Order.Service.csproj|c:\\users\\burak\\desktop\\github\\2024augmicroservicebootcamp\\2024augmicroservicebootcamp\\order.service\\order.service.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{42207540-636C-4CA3-AD57-FA175F1A277E}|Order.Service\\Order.Service.csproj|solutionrelative:order.service\\order.service.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FFCCB7F-0249-41A7-9D91-6933EA4C8FD9}|Order.API\\Order.API.csproj|c:\\users\\burak\\desktop\\github\\2024augmicroservicebootcamp\\2024augmicroservicebootcamp\\order.api\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FFCCB7F-0249-41A7-9D91-6933EA4C8FD9}|Order.API\\Order.API.csproj|solutionrelative:order.api\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42207540-636C-4CA3-AD57-FA175F1A277E}|Order.Service\\Order.Service.csproj|c:\\users\\burak\\desktop\\github\\2024augmicroservicebootcamp\\2024augmicroservicebootcamp\\order.service\\iorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42207540-636C-4CA3-AD57-FA175F1A277E}|Order.Service\\Order.Service.csproj|solutionrelative:order.service\\iorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DA81F576-F561-4AAB-A6A9-E78CD1979C87}|ServiceBus\\ServiceBus.csproj|c:\\users\\burak\\desktop\\github\\2024augmicroservicebootcamp\\2024augmicroservicebootcamp\\servicebus\\ordercreatedevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DA81F576-F561-4AAB-A6A9-E78CD1979C87}|ServiceBus\\ServiceBus.csproj|solutionrelative:servicebus\\ordercreatedevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2FFCCB7F-0249-41A7-9D91-6933EA4C8FD9}|Order.API\\Order.API.csproj|c:\\users\\burak\\desktop\\github\\2024augmicroservicebootcamp\\2024augmicroservicebootcamp\\order.api\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2FFCCB7F-0249-41A7-9D91-6933EA4C8FD9}|Order.API\\Order.API.csproj|solutionrelative:order.api\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DA81F576-F561-4AAB-A6A9-E78CD1979C87}|ServiceBus\\ServiceBus.csproj|c:\\users\\burak\\desktop\\github\\2024augmicroservicebootcamp\\2024augmicroservicebootcamp\\servicebus\\busoption.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA81F576-F561-4AAB-A6A9-E78CD1979C87}|ServiceBus\\ServiceBus.csproj|solutionrelative:servicebus\\busoption.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FB527BDF-9182-471B-AC2E-BF6CF4F0F58C}|Stock.Service\\Stock.Service.csproj|c:\\users\\burak\\desktop\\github\\2024augmicroservicebootcamp\\2024augmicroservicebootcamp\\stock.service\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -54,7 +98,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -67,19 +111,162 @@
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\Burak\\Desktop\\Github\\2024AugMicroserviceBootcamp\\2024AugMicroserviceBootcamp\\Stock.API\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "Stock.API\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\Burak\\Desktop\\Github\\2024AugMicroserviceBootcamp\\2024AugMicroserviceBootcamp\\Stock.API\\appsettings.Development.json",
+              "RelativeToolTip": "Stock.API\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-10T17:50:53.903Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Burak\\Desktop\\Github\\2024AugMicroserviceBootcamp\\2024AugMicroserviceBootcamp\\Stock.API\\Program.cs",
+              "RelativeDocumentMoniker": "Stock.API\\Program.cs",
+              "ToolTip": "C:\\Users\\Burak\\Desktop\\Github\\2024AugMicroserviceBootcamp\\2024AugMicroserviceBootcamp\\Stock.API\\Program.cs",
+              "RelativeToolTip": "Stock.API\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-10T17:48:41.694Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "BusConst.cs",
+              "DocumentMoniker": "C:\\Users\\Burak\\Desktop\\Github\\2024AugMicroserviceBootcamp\\2024AugMicroserviceBootcamp\\ServiceBus\\BusConst.cs",
+              "RelativeDocumentMoniker": "ServiceBus\\BusConst.cs",
+              "ToolTip": "C:\\Users\\Burak\\Desktop\\Github\\2024AugMicroserviceBootcamp\\2024AugMicroserviceBootcamp\\ServiceBus\\BusConst.cs",
+              "RelativeToolTip": "ServiceBus\\BusConst.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-10T17:11:44.981Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "OrderCreatedEventConsumerBGService.cs",
+              "DocumentMoniker": "C:\\Users\\Burak\\Desktop\\Github\\2024AugMicroserviceBootcamp\\2024AugMicroserviceBootcamp\\Stock.Service\\Consumers\\OrderCreatedEventConsumerBGService.cs",
+              "RelativeDocumentMoniker": "Stock.Service\\Consumers\\OrderCreatedEventConsumerBGService.cs",
+              "ToolTip": "C:\\Users\\Burak\\Desktop\\Github\\2024AugMicroserviceBootcamp\\2024AugMicroserviceBootcamp\\Stock.Service\\Consumers\\OrderCreatedEventConsumerBGService.cs",
+              "RelativeToolTip": "Stock.Service\\Consumers\\OrderCreatedEventConsumerBGService.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAIwDcAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-10T16:52:40.299Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Stock.Service",
+              "DocumentMoniker": "C:\\Users\\Burak\\Desktop\\Github\\2024AugMicroserviceBootcamp\\2024AugMicroserviceBootcamp\\Stock.Service\\Stock.Service.csproj",
+              "RelativeDocumentMoniker": "Stock.Service\\Stock.Service.csproj",
+              "ToolTip": "C:\\Users\\Burak\\Desktop\\Github\\2024AugMicroserviceBootcamp\\2024AugMicroserviceBootcamp\\Stock.Service\\Stock.Service.csproj",
+              "RelativeToolTip": "Stock.Service\\Stock.Service.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-02-10T16:51:22.627Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ServiceBus",
+              "DocumentMoniker": "C:\\Users\\Burak\\Desktop\\Github\\2024AugMicroserviceBootcamp\\2024AugMicroserviceBootcamp\\ServiceBus\\ServiceBus.csproj",
+              "RelativeDocumentMoniker": "ServiceBus\\ServiceBus.csproj",
+              "ToolTip": "C:\\Users\\Burak\\Desktop\\Github\\2024AugMicroserviceBootcamp\\2024AugMicroserviceBootcamp\\ServiceBus\\ServiceBus.csproj",
+              "RelativeToolTip": "ServiceBus\\ServiceBus.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-02-10T16:51:09.573Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Order.Repository",
+              "DocumentMoniker": "C:\\Users\\Burak\\Desktop\\Github\\2024AugMicroserviceBootcamp\\2024AugMicroserviceBootcamp\\Order.Repository\\Order.Repository.csproj",
+              "RelativeDocumentMoniker": "Order.Repository\\Order.Repository.csproj",
+              "ToolTip": "C:\\Users\\Burak\\Desktop\\Github\\2024AugMicroserviceBootcamp\\2024AugMicroserviceBootcamp\\Order.Repository\\Order.Repository.csproj",
+              "RelativeToolTip": "Order.Repository\\Order.Repository.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-02-10T16:51:05.086Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Order.Service",
+              "DocumentMoniker": "C:\\Users\\Burak\\Desktop\\Github\\2024AugMicroserviceBootcamp\\2024AugMicroserviceBootcamp\\Order.Service\\Order.Service.csproj",
+              "RelativeDocumentMoniker": "Order.Service\\Order.Service.csproj",
+              "ToolTip": "C:\\Users\\Burak\\Desktop\\Github\\2024AugMicroserviceBootcamp\\2024AugMicroserviceBootcamp\\Order.Service\\Order.Service.csproj",
+              "RelativeToolTip": "Order.Service\\Order.Service.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-02-10T16:51:02.309Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Order.API",
+              "DocumentMoniker": "C:\\Users\\Burak\\Desktop\\Github\\2024AugMicroserviceBootcamp\\2024AugMicroserviceBootcamp\\Order.API\\Order.API.csproj",
+              "RelativeDocumentMoniker": "Order.API\\Order.API.csproj",
+              "ToolTip": "C:\\Users\\Burak\\Desktop\\Github\\2024AugMicroserviceBootcamp\\2024AugMicroserviceBootcamp\\Order.API\\Order.API.csproj",
+              "RelativeToolTip": "Order.API\\Order.API.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-02-10T16:50:52.028Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "IOrderService.cs",
+              "DocumentMoniker": "C:\\Users\\Burak\\Desktop\\Github\\2024AugMicroserviceBootcamp\\2024AugMicroserviceBootcamp\\Order.Service\\IOrderService.cs",
+              "RelativeDocumentMoniker": "Order.Service\\IOrderService.cs",
+              "ToolTip": "C:\\Users\\Burak\\Desktop\\Github\\2024AugMicroserviceBootcamp\\2024AugMicroserviceBootcamp\\Order.Service\\IOrderService.cs",
+              "RelativeToolTip": "Order.Service\\IOrderService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-10T16:41:11.373Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "OrderService.cs",
+              "DocumentMoniker": "C:\\Users\\Burak\\Desktop\\Github\\2024AugMicroserviceBootcamp\\2024AugMicroserviceBootcamp\\Order.Service\\OrderService.cs",
+              "RelativeDocumentMoniker": "Order.Service\\OrderService.cs",
+              "ToolTip": "C:\\Users\\Burak\\Desktop\\Github\\2024AugMicroserviceBootcamp\\2024AugMicroserviceBootcamp\\Order.Service\\OrderService.cs",
+              "RelativeToolTip": "Order.Service\\OrderService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-10T16:18:30.081Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Burak\\Desktop\\Github\\2024AugMicroserviceBootcamp\\2024AugMicroserviceBootcamp\\Order.API\\Program.cs",
               "RelativeDocumentMoniker": "Order.API\\Program.cs",
               "ToolTip": "C:\\Users\\Burak\\Desktop\\Github\\2024AugMicroserviceBootcamp\\2024AugMicroserviceBootcamp\\Order.API\\Program.cs",
               "RelativeToolTip": "Order.API\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABbAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-09T20:09:45.653Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 17,
               "Title": "BusOption.cs",
               "DocumentMoniker": "C:\\Users\\Burak\\Desktop\\Github\\2024AugMicroserviceBootcamp\\2024AugMicroserviceBootcamp\\ServiceBus\\BusOption.cs",
               "RelativeDocumentMoniker": "ServiceBus\\BusOption.cs",
@@ -87,8 +274,7 @@
               "RelativeToolTip": "ServiceBus\\BusOption.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-09T20:07:55.272Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-09T20:07:55.272Z"
             },
             {
               "$type": "Document",
@@ -98,40 +284,40 @@
               "RelativeDocumentMoniker": "Order.API\\appsettings.Development.json",
               "ToolTip": "C:\\Users\\Burak\\Desktop\\Github\\2024AugMicroserviceBootcamp\\2024AugMicroserviceBootcamp\\Order.API\\appsettings.Development.json",
               "RelativeToolTip": "Order.API\\appsettings.Development.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-02-09T20:06:24.088Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 8,
               "Title": "Bus.cs",
               "DocumentMoniker": "C:\\Users\\Burak\\Desktop\\Github\\2024AugMicroserviceBootcamp\\2024AugMicroserviceBootcamp\\ServiceBus\\Bus.cs",
               "RelativeDocumentMoniker": "ServiceBus\\Bus.cs",
               "ToolTip": "C:\\Users\\Burak\\Desktop\\Github\\2024AugMicroserviceBootcamp\\2024AugMicroserviceBootcamp\\ServiceBus\\Bus.cs",
               "RelativeToolTip": "ServiceBus\\Bus.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAgwCsAAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAABwAAAAAAAAAAAAgwAwAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-09T19:57:30.761Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 9,
               "Title": "IBus.cs",
               "DocumentMoniker": "C:\\Users\\Burak\\Desktop\\Github\\2024AugMicroserviceBootcamp\\2024AugMicroserviceBootcamp\\ServiceBus\\IBus.cs",
               "RelativeDocumentMoniker": "ServiceBus\\IBus.cs",
               "ToolTip": "C:\\Users\\Burak\\Desktop\\Github\\2024AugMicroserviceBootcamp\\2024AugMicroserviceBootcamp\\ServiceBus\\IBus.cs",
               "RelativeToolTip": "ServiceBus\\IBus.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAoAAAAzAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAwAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-09T15:06:31.448Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 16,
               "Title": "OrderCreatedEvent.cs",
               "DocumentMoniker": "C:\\Users\\Burak\\Desktop\\Github\\2024AugMicroserviceBootcamp\\2024AugMicroserviceBootcamp\\ServiceBus\\OrderCreatedEvent.cs",
               "RelativeDocumentMoniker": "ServiceBus\\OrderCreatedEvent.cs",
@@ -144,20 +330,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 14,
               "Title": "OrdersController.cs",
               "DocumentMoniker": "C:\\Users\\Burak\\Desktop\\Github\\2024AugMicroserviceBootcamp\\2024AugMicroserviceBootcamp\\Order.API\\Controllers\\OrdersController.cs",
               "RelativeDocumentMoniker": "Order.API\\Controllers\\OrdersController.cs",
               "ToolTip": "C:\\Users\\Burak\\Desktop\\Github\\2024AugMicroserviceBootcamp\\2024AugMicroserviceBootcamp\\Order.API\\Controllers\\OrdersController.cs",
               "RelativeToolTip": "Order.API\\Controllers\\OrdersController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAUAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-09T14:21:08.549Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 18,
               "Title": "Class1.cs",
               "DocumentMoniker": "C:\\Users\\Burak\\Desktop\\Github\\2024AugMicroserviceBootcamp\\2024AugMicroserviceBootcamp\\Stock.Service\\Class1.cs",
               "RelativeDocumentMoniker": "Stock.Service\\Class1.cs",
@@ -165,12 +351,11 @@
               "RelativeToolTip": "Stock.Service\\Class1.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-09T13:20:00.9Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-09T13:20:00.9Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 19,
               "Title": "Class1.cs",
               "DocumentMoniker": "C:\\Users\\Burak\\Desktop\\Github\\2024AugMicroserviceBootcamp\\2024AugMicroserviceBootcamp\\Stock.Repository\\Class1.cs",
               "RelativeDocumentMoniker": "Stock.Repository\\Class1.cs",
@@ -178,12 +363,11 @@
               "RelativeToolTip": "Stock.Repository\\Class1.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-09T13:19:51.074Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-09T13:19:51.074Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 20,
               "Title": "Class1.cs",
               "DocumentMoniker": "C:\\Users\\Burak\\Desktop\\Github\\2024AugMicroserviceBootcamp\\2024AugMicroserviceBootcamp\\Order.Service\\Class1.cs",
               "RelativeDocumentMoniker": "Order.Service\\Class1.cs",
@@ -191,12 +375,11 @@
               "RelativeToolTip": "Order.Service\\Class1.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-09T13:16:15.107Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-09T13:16:15.107Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 21,
               "Title": "Class1.cs",
               "DocumentMoniker": "C:\\Users\\Burak\\Desktop\\Github\\2024AugMicroserviceBootcamp\\2024AugMicroserviceBootcamp\\Order.Repository\\Class1.cs",
               "RelativeDocumentMoniker": "Order.Repository\\Class1.cs",
@@ -204,8 +387,7 @@
               "RelativeToolTip": "Order.Repository\\Class1.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-09T13:15:56.478Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-09T13:15:56.478Z"
             }
           ]
         }

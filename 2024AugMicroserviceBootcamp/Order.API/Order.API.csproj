@@ -11,7 +11,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\ServiceBus\ServiceBus.csproj" />
+    <ProjectReference Include="..\Order.Service\Order.Service.csproj" />
   </ItemGroup>
 
 </Project>

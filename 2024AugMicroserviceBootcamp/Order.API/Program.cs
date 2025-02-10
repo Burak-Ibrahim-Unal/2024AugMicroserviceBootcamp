@@ -1,3 +1,5 @@
+
+using Order.Service;
 using ServiceBus;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -8,8 +10,10 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
-builder.Services.Configure<BusOption>(builder.Configuration.GetSection(nameof(BusOption)));
+builder.Services.AddSingleton<IBus, Bus>();
+builder.Services.AddScoped<IOrderService, OrderService>();
 
+builder.Services.Configure<BusOption>(builder.Configuration.GetSection(nameof(BusOption)));
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
