@@ -41,6 +41,7 @@ namespace Stock.Service.Consumers
 
             Channel.BasicConsume(queue: BusConst.StockOrderCreatedEventQueue, autoAck: false, consumer: consumer);
             //autoAck: true > Automatically acknowledges the message upon delivery.
+            Channel!.CallbackException += Channel_CallbackException;
 
             consumer.Received += (model, ea) =>
             {
@@ -54,6 +55,11 @@ namespace Stock.Service.Consumers
             };
 
             return Task.CompletedTask;
+        }
+
+        private void Channel_CallbackException(object? sender, CallbackExceptionEventArgs e)
+        {
+            throw new NotImplementedException();
         }
     }
 }
