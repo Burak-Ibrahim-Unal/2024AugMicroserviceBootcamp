@@ -25,9 +25,10 @@ namespace Stock.Service.Consumers
             //}
 
 
-            //Console.WriteLine("Consumer started to read data...");
             //throw new DBConcurrencyException(); 
             #endregion
+
+            Console.WriteLine("Consumer started to read data...");
 
             Console.WriteLine($"(MassTransit) Gelen event: {context.Message.orderId}");
 
