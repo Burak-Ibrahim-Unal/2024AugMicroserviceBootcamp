@@ -1,4 +1,5 @@
 
+using MassTransit;
 using Order.Service;
 using ServiceBus;
 
@@ -10,7 +11,20 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
-builder.Services.AddSingleton<IBus, Bus>();
+builder.Services.AddSingleton<ServiceBus.IBus, ServiceBus.Bus>();
+builder.Services.AddMassTransit(config => 
+{
+    config.UsingRabbitMq((context, cfg) =>
+    {
+        var busOptions = builder.Configuration.GetSection(nameof(BusOption)).Get<BusOption>();
+
+        cfg.Host(new Uri(busOptions!.Url));
+
+
+
+        cfg.ConfigureEndpoints(context);
+    });
+});
 builder.Services.AddScoped<IOrderService, OrderService>();
 
 builder.Services.Configure<BusOption>(builder.Configuration.GetSection(nameof(BusOption)));

@@ -1,3 +1,4 @@
+using MassTransit;
 using ServiceBus;
 using Stock.Service.Consumers;
 
@@ -9,9 +10,28 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
-builder.Services.AddSingleton<IBus, Bus>();
-builder.Services.AddHostedService<OrderCreatedEventConsumerBGService>();
+builder.Services.AddSingleton<ServiceBus.IBus, ServiceBus.Bus>();
+//builder.Services.AddHostedService<OrderCreatedEventConsumerBGService>();
 builder.Services.Configure<BusOption>(builder.Configuration.GetSection(nameof(BusOption)));
+
+builder.Services.AddMassTransit(config =>
+{
+    config.AddConsumer<OrderCreatedEventConsumer>();
+
+    config.UsingRabbitMq((masstransitConfig, rabbitMqConfig) =>
+    {
+        var busOptions = builder.Configuration.GetSection(nameof(BusOption)).Get<BusOption>();
+
+        rabbitMqConfig.Host(new Uri(busOptions!.Url));
+
+        rabbitMqConfig.ReceiveEndpoint(BusConst.StockOrderCreatedEventQueueWithMassTransit, e=>
+        {
+            e.Consumer<OrderCreatedEventConsumer>(masstransitConfig);
+        });
+
+        //rabbitMqConfig.ConfigureEndpoints(masstransitConfig);
+    });
+});
 
 var app = builder.Build();
 

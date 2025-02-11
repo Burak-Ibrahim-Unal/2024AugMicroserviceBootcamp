@@ -1,4 +1,5 @@
-﻿using ServiceBus;
+﻿using MassTransit;
+using ServiceBus;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Order.Service
 {
-    public class OrderService(IBus bus) : IOrderService
+    public class OrderService(ServiceBus.IBus bus, IPublishEndpoint publishEndpoint) : IOrderService
     {
         public async Task Create()
         {
@@ -16,8 +17,20 @@ namespace Order.Service
                 {1, 1},{2,6}
             });
 
-            await bus.Send(orderCreatedEvent, BusConst.OrderCreatedEventExchange);
+            //await bus.Send(orderCreatedEvent, BusConst.OrderCreatedEventExchange);
 
+            CancellationTokenSource cancellationTokenSource = new();
+            cancellationTokenSource.CancelAfter(TimeSpan.FromSeconds(60));
+            await publishEndpoint.Publish(
+                orderCreatedEvent,
+                pipeline =>
+                {
+                    pipeline.SetAwaitAck(true); //throw exception if data is not processed / saved
+                    pipeline.Durable = true; // save data to disk for protection of restarting
+                    pipeline.TimeToLive = TimeSpan.FromSeconds(360); // The message lifetime is 360 seconds.
+                },
+                cancellationTokenSource.Token
+            );
         }
     }
 }

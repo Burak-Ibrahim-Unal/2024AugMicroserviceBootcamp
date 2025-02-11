@@ -14,24 +14,24 @@ namespace ServiceBus
     {
         public Task Send<T>(T message, string exchangeName) where T : class
         {
-            using var channel = GetChannel();
-            channel.ConfirmSelect();
+            //using var channel = GetChannel();
+            //channel.ConfirmSelect();
 
-            //create exchange
-            channel.ExchangeDeclare(exchange: exchangeName, type: ExchangeType.Fanout);
+            ////create exchange
+            //channel.ExchangeDeclare(exchange: exchangeName, type: ExchangeType.Fanout);
 
-            var messageBody = Encoding.UTF8.GetBytes(JsonSerializer.Serialize(message));
+            //var messageBody = Encoding.UTF8.GetBytes(JsonSerializer.Serialize(message));
 
-            var properties = channel.CreateBasicProperties();
+            //var properties = channel.CreateBasicProperties();
 
 
-            channel.BasicPublish(
-                                exchange: exchangeName,
-                                routingKey: "", // Fanout Exchange kullanıyorsan routing key boş olmalı
-                                basicProperties: null, // Boş bir BasicProperties nesnesi oluştur
-                                body: messageBody
-            );
-            channel.WaitForConfirms(TimeSpan.FromMinutes(1));
+            //channel.BasicPublish(
+            //                    exchange: exchangeName,
+            //                    routingKey: "", // Fanout Exchange kullanıyorsan routing key boş olmalı
+            //                    basicProperties: null, // Boş bir BasicProperties nesnesi oluştur
+            //                    body: messageBody
+            //);
+            //channel.WaitForConfirms(TimeSpan.FromMinutes(1));
 
             return Task.CompletedTask;
         }
