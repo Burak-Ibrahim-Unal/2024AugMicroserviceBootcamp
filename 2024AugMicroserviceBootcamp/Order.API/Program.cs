@@ -1,5 +1,7 @@
 
 using Broker;
+using Caching;
+using Microsoft.EntityFrameworkCore;
 using Order.Application;
 using Order.Application.Order;
 using Order.Repository;
@@ -16,7 +18,12 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddScoped<IOrderRepository,OrderRepository>();
 builder.Services.AddScoped<IBusService,BusService>();
 builder.Services.AddScoped<IOrderService,OrderService>();
-builder.Services.AddScoped<ICacheService,ICacheService>();
+builder.Services.AddScoped<ICacheService,CacheService>();
+builder.Services.AddDbContext<AppDbContext>(options =>
+{
+    options.UseInMemoryDatabase("OrderDb");
+});
+builder.Services.AddMemoryCache();
 
 //builder.Services.AddMassTransit(config => 
 //{
