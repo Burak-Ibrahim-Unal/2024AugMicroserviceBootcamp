@@ -1,6 +1,8 @@
 
-using MassTransit;
-using Order.Service;
+using Broker;
+using Order.Application;
+using Order.Application.Order;
+using Order.Repository;
 using ServiceBus;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -11,23 +13,28 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
-builder.Services.AddSingleton<ServiceBus.IBus, ServiceBus.Bus>();
-builder.Services.AddMassTransit(config => 
-{
-    config.UsingRabbitMq((context, cfg) =>
-    {
-        var busOptions = builder.Configuration.GetSection(nameof(BusOption)).Get<BusOption>();
+builder.Services.AddScoped<IOrderRepository,OrderRepository>();
+builder.Services.AddScoped<IBusService,BusService>();
+builder.Services.AddScoped<IOrderService,OrderService>();
+builder.Services.AddScoped<ICacheService,ICacheService>();
 
-        cfg.Host(new Uri(busOptions!.Url));
+//builder.Services.AddMassTransit(config => 
+//{
+//    config.UsingRabbitMq((context, cfg) =>
+//    {
+//        var busOptions = builder.Configuration.GetSection(nameof(BusOption)).Get<BusOption>();
+
+//        cfg.Host(new Uri(busOptions!.Url));
 
 
 
-        cfg.ConfigureEndpoints(context);
-    });
-});
+//        cfg.ConfigureEndpoints(context);
+//    });
+//});
+
 builder.Services.AddScoped<IOrderService, OrderService>();
 
-builder.Services.Configure<BusOption>(builder.Configuration.GetSection(nameof(BusOption)));
+//builder.Services.Configure<BusOption>(builder.Configuration.GetSection(nameof(BusOption)));
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

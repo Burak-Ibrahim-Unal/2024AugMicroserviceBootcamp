@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using Order.Service;
+using Order.Application.Order;
+using Order.Application.Order.CreateOrderUseCase;
 
 namespace Order.API.Controllers
 {
@@ -9,9 +10,9 @@ namespace Order.API.Controllers
     public class OrdersController(IOrderService orderService) : ControllerBase
     {
         [HttpPost]
-        public async Task<IActionResult> Create()
+        public async Task<IActionResult> Create(OrderCreateRequest orderCreateRequest)
         {
-            await orderService.Create();
+            await orderService.CreateOrder(orderCreateRequest);
             return Ok();
         }
     }
