@@ -20,11 +20,15 @@ builder.Services.AddMassTransit(config =>
 
     config.UsingRabbitMq((masstransitConfig, rabbitMqConfig) =>
     {
+        rabbitMqConfig.UseMessageRetry(r => r.Interval(6, TimeSpan.FromSeconds(5)));
+
+        rabbitMqConfig.UseInMemoryOutbox(masstransitConfig);
+
         var busOptions = builder.Configuration.GetSection(nameof(BusOption)).Get<BusOption>();
 
         rabbitMqConfig.Host(new Uri(busOptions!.Url));
 
-        rabbitMqConfig.ReceiveEndpoint(BusConst.StockOrderCreatedEventQueueWithMassTransit, e=>
+        rabbitMqConfig.ReceiveEndpoint(BusConst.StockOrderCreatedEventQueueWithMassTransit, e =>
         {
             e.Consumer<OrderCreatedEventConsumer>(masstransitConfig);
         });
