@@ -15,5 +15,10 @@ namespace Order.Repository
             context.SaveChanges();
             return order.Id;
         }
+        public ValueTask<Domain.Order?> GetByIdAsync(int id)
+        {
+            return context.Orders.FindAsync(id);
+        }
     }
+
 }

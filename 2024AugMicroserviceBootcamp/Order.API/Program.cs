@@ -15,10 +15,12 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
-builder.Services.AddScoped<IOrderRepository,OrderRepository>();
-builder.Services.AddScoped<IBusService,BusService>();
-builder.Services.AddScoped<IOrderService,OrderService>();
-builder.Services.AddScoped<ICacheService,CacheService>();
+builder.Services.AddScoped<IOrderRepository, OrderRepository>();
+builder.Services.AddScoped<IBusService, BusService>();
+builder.Services.AddScoped<IOrderService, OrderService>();
+builder.Services.AddScoped<ICacheService, CacheService>();
+builder.Services.AddMediatR(configuration => configuration.RegisterServicesFromAssemblyContaining<ServiceAssembly>());
+
 builder.Services.AddDbContext<AppDbContext>(options =>
 {
     options.UseInMemoryDatabase("OrderDb");
