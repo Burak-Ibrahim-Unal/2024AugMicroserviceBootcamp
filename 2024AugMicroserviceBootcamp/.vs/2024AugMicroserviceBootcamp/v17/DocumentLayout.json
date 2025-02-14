@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\Burak\\Desktop\\Github\\2024AugMicroserviceBootcamp\\2024AugMicroserviceBootcamp\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{AF85AF60-57D6-4F5C-8BDD-D77D14BC0877}|Order.Application\\Order.Application.csproj|c:\\users\\burak\\desktop\\github\\2024augmicroservicebootcamp\\2024augmicroservicebootcamp\\order.application\\order\\commands\\create\\ordercreatecommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF85AF60-57D6-4F5C-8BDD-D77D14BC0877}|Order.Application\\Order.Application.csproj|solutionrelative:order.application\\order\\commands\\create\\ordercreatecommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{2FFCCB7F-0249-41A7-9D91-6933EA4C8FD9}|Order.API\\Order.API.csproj|c:\\users\\burak\\desktop\\github\\2024augmicroservicebootcamp\\2024augmicroservicebootcamp\\order.api\\controllers\\ordermediatrcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2FFCCB7F-0249-41A7-9D91-6933EA4C8FD9}|Order.API\\Order.API.csproj|solutionrelative:order.api\\controllers\\ordermediatrcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -29,10 +33,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{AF85AF60-57D6-4F5C-8BDD-D77D14BC0877}|Order.Application\\Order.Application.csproj|c:\\users\\burak\\desktop\\github\\2024augmicroservicebootcamp\\2024augmicroservicebootcamp\\order.application\\order\\commands\\create\\ordercreatecommandresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AF85AF60-57D6-4F5C-8BDD-D77D14BC0877}|Order.Application\\Order.Application.csproj|solutionrelative:order.application\\order\\commands\\create\\ordercreatecommandresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AF85AF60-57D6-4F5C-8BDD-D77D14BC0877}|Order.Application\\Order.Application.csproj|c:\\users\\burak\\desktop\\github\\2024augmicroservicebootcamp\\2024augmicroservicebootcamp\\order.application\\order\\commands\\create\\ordercreatecommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AF85AF60-57D6-4F5C-8BDD-D77D14BC0877}|Order.Application\\Order.Application.csproj|solutionrelative:order.application\\order\\commands\\create\\ordercreatecommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AF85AF60-57D6-4F5C-8BDD-D77D14BC0877}|Order.Application\\Order.Application.csproj|c:\\users\\burak\\desktop\\github\\2024augmicroservicebootcamp\\2024augmicroservicebootcamp\\order.application\\order\\commands\\create\\ordercreatecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -146,7 +146,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -158,20 +158,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "GetOrderByIdQueryHandler.cs",
               "DocumentMoniker": "C:\\Users\\Burak\\Desktop\\Github\\2024AugMicroserviceBootcamp\\2024AugMicroserviceBootcamp\\Order.Application\\Order\\Queries\\GetOrderByIdQueryHandler.cs",
               "RelativeDocumentMoniker": "Order.Application\\Order\\Queries\\GetOrderByIdQueryHandler.cs",
               "ToolTip": "C:\\Users\\Burak\\Desktop\\Github\\2024AugMicroserviceBootcamp\\2024AugMicroserviceBootcamp\\Order.Application\\Order\\Queries\\GetOrderByIdQueryHandler.cs",
               "RelativeToolTip": "Order.Application\\Order\\Queries\\GetOrderByIdQueryHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA2AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-13T13:20:03.431Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "GetOrderByIdQueryResponse.cs",
               "DocumentMoniker": "C:\\Users\\Burak\\Desktop\\Github\\2024AugMicroserviceBootcamp\\2024AugMicroserviceBootcamp\\Order.Application\\Order\\Queries\\GetOrderByIdQueryResponse.cs",
               "RelativeDocumentMoniker": "Order.Application\\Order\\Queries\\GetOrderByIdQueryResponse.cs",
@@ -184,7 +184,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "GetOrderByIdQuery.cs",
               "DocumentMoniker": "C:\\Users\\Burak\\Desktop\\Github\\2024AugMicroserviceBootcamp\\2024AugMicroserviceBootcamp\\Order.Application\\Order\\Queries\\GetOrderByIdQuery.cs",
               "RelativeDocumentMoniker": "Order.Application\\Order\\Queries\\GetOrderByIdQuery.cs",
@@ -197,20 +197,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "OrderMediatRController.cs",
               "DocumentMoniker": "C:\\Users\\Burak\\Desktop\\Github\\2024AugMicroserviceBootcamp\\2024AugMicroserviceBootcamp\\Order.API\\Controllers\\OrderMediatRController.cs",
               "RelativeDocumentMoniker": "Order.API\\Controllers\\OrderMediatRController.cs",
               "ToolTip": "C:\\Users\\Burak\\Desktop\\Github\\2024AugMicroserviceBootcamp\\2024AugMicroserviceBootcamp\\Order.API\\Controllers\\OrderMediatRController.cs",
               "RelativeToolTip": "Order.API\\Controllers\\OrderMediatRController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-13T11:23:31.875Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "OrderCreateCommandResponse.cs",
               "DocumentMoniker": "C:\\Users\\Burak\\Desktop\\Github\\2024AugMicroserviceBootcamp\\2024AugMicroserviceBootcamp\\Order.Application\\Order\\Commands\\Create\\OrderCreateCommandResponse.cs",
               "RelativeDocumentMoniker": "Order.Application\\Order\\Commands\\Create\\OrderCreateCommandResponse.cs",
@@ -223,13 +223,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 0,
               "Title": "OrderCreateCommandHandler.cs",
               "DocumentMoniker": "C:\\Users\\Burak\\Desktop\\Github\\2024AugMicroserviceBootcamp\\2024AugMicroserviceBootcamp\\Order.Application\\Order\\Commands\\Create\\OrderCreateCommandHandler.cs",
               "RelativeDocumentMoniker": "Order.Application\\Order\\Commands\\Create\\OrderCreateCommandHandler.cs",
               "ToolTip": "C:\\Users\\Burak\\Desktop\\Github\\2024AugMicroserviceBootcamp\\2024AugMicroserviceBootcamp\\Order.Application\\Order\\Commands\\Create\\OrderCreateCommandHandler.cs",
               "RelativeToolTip": "Order.Application\\Order\\Commands\\Create\\OrderCreateCommandHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAxAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-13T11:16:00.17Z",
               "EditorCaption": ""
@@ -262,7 +262,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "OrderRepository.cs",
               "DocumentMoniker": "C:\\Users\\Burak\\Desktop\\Github\\2024AugMicroserviceBootcamp\\2024AugMicroserviceBootcamp\\Order.Repository\\OrderRepository.cs",
               "RelativeDocumentMoniker": "Order.Repository\\OrderRepository.cs",
@@ -288,7 +288,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "IOrderRepository.cs",
               "DocumentMoniker": "C:\\Users\\Burak\\Desktop\\Github\\2024AugMicroserviceBootcamp\\2024AugMicroserviceBootcamp\\Order.Application\\Order\\IOrderRepository.cs",
               "RelativeDocumentMoniker": "Order.Application\\Order\\IOrderRepository.cs",
