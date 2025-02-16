@@ -1,4 +1,5 @@
 ﻿using MassTransit;
+using Oder.API.Services;
 using ServiceBus;
 using System;
 using System.Collections.Generic;
@@ -6,9 +7,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Order.Service
+namespace Order.Service.Services
 {
-    public class OrderService(ServiceBus.IBus bus, IPublishEndpoint publishEndpoint) : IOrderService
+    public class OrderService(ServiceBus.IBus bus, IPublishEndpoint publishEndpoint, StockService stockService) : IOrderService
     {
         public async Task Create()
         {
@@ -18,6 +19,8 @@ namespace Order.Service
             });
 
             //await bus.Send(orderCreatedEvent, BusConst.OrderCreatedEventExchange);
+
+            var result = await stockService.CheckStockAsync(1, 5);
 
             CancellationTokenSource cancellationTokenSource = new();
             cancellationTokenSource.CancelAfter(TimeSpan.FromSeconds(60));
